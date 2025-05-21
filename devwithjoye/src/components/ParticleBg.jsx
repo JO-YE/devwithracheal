@@ -3,8 +3,8 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
 export const ParticlesBg = () => {
-     const loadParticles = useCallback(async (main) => {
-        await loadFull(main)
+     const loadParticles = useCallback(async (engine) => {
+        await loadFull(engine);
     }, []);
     return (
     <Particles

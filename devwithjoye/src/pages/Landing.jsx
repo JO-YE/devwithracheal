@@ -12,8 +12,9 @@ export const Landing = () => {
   };
 
     return <div className="relative min-h-screen  flex flex-col justify-center items-center overflow-x-hidden"> 
-    <ParticlesBg />
-    <div >
+   <ParticlesBg />
+    <div className="starry-bg" />
+    <div className="relative z-10" >
       {!isOpen ? (
         <motion.div
           onClick={handleBoxClick}
@@ -29,8 +30,6 @@ export const Landing = () => {
       )
       }
     </div>
-      
-      
         </div>;
 
 }

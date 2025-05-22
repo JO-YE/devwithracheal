@@ -114,6 +114,7 @@
   animation: moveStars 60s linear infinite;
   z-index: 0;
   opacity: 0.2;
+  pointer-events: none;
 }
 
 

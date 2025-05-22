@@ -95,7 +95,7 @@ export const Landing = () => {
               custom={1}
               variants={introVariants}
             >
-              I’m <b>Joye</b> — a passionate software developer who loves bringing ideas or designs to life through code. <br /><br />
+              My name is <b>Aina Racheal Damilola</b> you can refer me as <b><i>JOYE</i></b> — a passionate software developer who loves bringing ideas or designs to life through code. <br /><br />
               Whether it's building smart interfaces or working with databases, <b>I'm here to create meaningful digital experiences.</b> <br /><br />
               I thrive in collaborative environments and enjoy building with teams to turn vision into reality.
             </_motion.p>

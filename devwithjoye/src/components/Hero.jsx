@@ -14,7 +14,7 @@ export const Hero = () => {
           delaySpeed={3500} 
         />
       </h1>
-      <p className="text-lg md:text-xl text-gray-300 italic">
+      <p className="text-lg md:text-xl text-gray-300 italic mt-6 font-semibold">
         Let's bring that idea to life
       </p>
     </section>

@@ -1,6 +1,7 @@
 import { ParticlesBg } from "../components/ParticleBg.jsx";
 import { Hero } from "../components/Hero.jsx";
 import { Footer } from "../components/Footer.jsx";
+import { Projects } from "../components/Projects.jsx";
 
 export const Home = () => {
   return (
@@ -12,7 +13,8 @@ export const Home = () => {
       {/* Main content */}
       <main className="relative z-10 flex-grow">
         <Hero />
-        {/* other sections like Projects, Skills, Contact here */}
+        <Projects/>
+        
       </main>
 
       {/* Footer */}

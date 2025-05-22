@@ -1,15 +1,18 @@
-import { Theme } from "../components/ThemeToggle";
+import { Footer } from "../components/Footer";
+import { Hero } from "../components/Header";
+import { Navbar } from '../components/Navbar';
+
+
 
 export const Home = () => {
-    return <div>
-        {/** Theme Toggle */}
+    return <div className=" flex flex-col min-h-screen ">
+        <main className="flex-grow">
+            <Navbar />
+            <Hero/>
+        </main>
+        
 
-        {/** Background effect which is optional */}
-
-        {/** Navbar */}
-
-        {/** Main Content */}
-
-        {/** Footer */}
-    </div>;
-}
+      
+      <Footer/>
+    </div>
+};

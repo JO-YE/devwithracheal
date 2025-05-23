@@ -95,8 +95,8 @@ export const Projects = () => {
 
 
   return (
-    <section className="max-w-5xl mx-auto px-4 py-16 text-white   " id="projects">
-      <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
+    <section className="max-w-5xl mx-auto px-4 py-16 text-white  " id="projects">
+      <h2 className="text-3xl font-bold mb-5 text-center">Projects</h2>
 
       <div 
       ref={containerRef}
@@ -114,6 +114,11 @@ export const Projects = () => {
       onTouchMove={handleMove}
       onTouchEnd={handleEnd}
       >
+        <style>{`
+          div::-webkit-scrollbar {
+            display: none;
+          }
+        `}</style>
         
         {displayProjects.map((project, i) => (
           <div

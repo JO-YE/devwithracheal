@@ -4,6 +4,7 @@ import { Footer } from "../components/Footer.jsx";
 import { Projects } from "../components/Projects.jsx";
 import { Skills } from "../components/Skills.jsx";
 import { Testimonials } from "../components/Testimonial.jsx";
+import { ReviewForm } from "../components/Review.jsx";
 
 export const Home = () => {
   return (
@@ -18,6 +19,7 @@ export const Home = () => {
         <Projects/>
         <Skills/>
         <Testimonials />
+        <ReviewForm />
         
       </main>
 

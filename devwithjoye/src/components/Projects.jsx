@@ -134,7 +134,7 @@ export const Projects = () => {
             } : {}}>
 
               {/** project container */}
-            <div className="bg-gradient-to-br from-[#1a1a2e] to-[#16213e] rounded-full p-6 shadow-2xl hover:shadow-purple-500/20 hover:scale-105 hover:-translate-y-2 transition-all duration-300 border border-purple-500/20 backdrop-blur-sm">
+            <div className="bg-gradient-to-br from-bg-[#06061a] to-[#16213e] rounded-full p-6 shadow-2xl hover:shadow-purple-500/20 hover:scale-105 hover:-translate-y-2 transition-all duration-300 border border-purple-500/20 backdrop-blur-sm">
               <h3 className="text-xl font-semibold mb-2">{project.name}</h3>
               <p className="text-gray-300 mb-4 leading-relaxed">{project.description}</p>
               <div className="flex flex-wrap gap-2 mb-4 justify-center">

@@ -26,7 +26,7 @@ export const Skills = () => (
       {skills.map((skill, i) => (
         <div
           key={i}
-          className="flex flex-col items-center space-y-2 p-4 bg-[#1a1a2e] rounded-2xl shadow-lg hover:shadow-purple-500/30 transition-all duration-300 hover:scale-105"
+          className="flex flex-col items-center space-y-2 p-4 bg-gradient-to-br from-bg-[#06061a] to-[#16213e] rounded-2xl shadow-lg hover:shadow-purple-500/30 transition-all duration-300 hover:scale-105"
         >
           <div className="text-4xl">{skill.icon}</div>
           <span className="text-sm font-medium">{skill.name}</span>

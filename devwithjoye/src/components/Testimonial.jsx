@@ -55,7 +55,7 @@ export const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="min-w-[300px] bg-gradient-to-br from-[#1a1a2e] to-[#16213e] rounded-2xl p-6 shadow-lg hover:shadow-purple-500/30 hover:scale-105 transition-transform duration-300"
+              className="min-w-[300px] bg-gradient-to-br from-[#06061a] to-[#16213e] rounded-2xl p-6 shadow-lg hover:shadow-purple-500/30 hover:scale-105 transition-transform duration-300"
             >
               <div className="flex items-center mb-4 space-x-3">
                 <img
@@ -79,7 +79,7 @@ export const Testimonials = () => {
               href={post.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="min-w-[250px] bg-[#1a1a2e] bg-gradient-to-br from-[#1a1a2e] to-[#16213e] rounded-2xl p-6 shadow-lg hover:shadow-purple-500/30 hover:scale-105 transition-transform duration-300"
+              className="min-w-[250px] bg-gradient-to-br from-bg-[#06061a] to-[#16213e] rounded-2xl p-6 shadow-lg hover:shadow-purple-500/30 hover:scale-105 transition-transform duration-300"
             >
               <h3 className="text-lg font-semibold">{post.title}</h3>
               <p className="text-sm text-gray-400 mb-2">{new Date(post.published_at).toDateString()}</p>

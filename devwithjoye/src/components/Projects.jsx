@@ -95,7 +95,7 @@ export const Projects = () => {
 
 
   return (
-    <section className="max-w-5xl mx-auto px-4 py-16 text-white  " id="projects">
+    <section className="max-w-5xl mx-auto px-4  text-white  " id="projects">
       <h2 className="text-3xl font-bold mb-5 text-center">Projects</h2>
 
       <div 

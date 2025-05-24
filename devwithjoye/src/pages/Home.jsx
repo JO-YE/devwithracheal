@@ -2,6 +2,7 @@ import { ParticlesBg } from "../components/ParticleBg.jsx";
 import { Hero } from "../components/Hero.jsx";
 import { Footer } from "../components/Footer.jsx";
 import { Projects } from "../components/Projects.jsx";
+import { Skills } from "../components/Skills.jsx";
 
 export const Home = () => {
   return (
@@ -14,6 +15,7 @@ export const Home = () => {
       <main className="relative z-10 flex-grow">
         <Hero />
         <Projects/>
+        <Skills/>
         
       </main>
 

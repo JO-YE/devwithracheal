@@ -41,6 +41,7 @@ export const ReviewForm = () => {
         <div>
           <input
             type="text"
+            name="name"
             placeholder="Your Name (e.g. Sofia B.)"
             value={formData.name}
             required
@@ -52,6 +53,7 @@ export const ReviewForm = () => {
         <div>
           <input
             type="text"
+            name="role"
             placeholder="Your Role (e.g. Client, Backend Dev)"
             value={formData.role}
             required
@@ -62,6 +64,7 @@ export const ReviewForm = () => {
 
         <div>
           <textarea
+            name="message"
             placeholder="Your Review (e.g. The collaboration was seamless...)"
             value={formData.message}
             required

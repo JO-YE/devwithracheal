@@ -16,7 +16,7 @@ export const Contact = () => {
           href="https://wa.me/2348101692377"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-4 rounded-full bg-gradient-to-br from-[#06061a] to-[#16213e] hover:bg-purple-700 transition"
+          className="p-4 rounded-full bg-gradient-to-br from-[#06061a] to-[#16213e] hover:from-purple-700 hover:to-pink-700 transition"
         >
           <FaWhatsapp size={28} />
         </a>
@@ -24,7 +24,7 @@ export const Contact = () => {
           href="https://github.com/JO-YE"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-4 rounded-full bg-gradient-to-br from-[#06061a] to-[#16213e] hover:bg-purple-700 transition"
+          className="p-4 rounded-full bg-gradient-to-br from-[#06061a] to-[#16213e] hover:from-purple-700 hover:to-pink-700 transition"
         >
           <FaGithub size={28} />
         </a>
@@ -32,7 +32,7 @@ export const Contact = () => {
           href="https://linkedin.com/in/joye-a-racheal"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-4 rounded-full bg-gradient-to-br from-[#06061a] to-[#16213e] hover:bg-purple-700 transition"
+          className="p-4 rounded-full bg-gradient-to-br from-[#06061a] to-[#16213e] hover:from-purple-700 hover:to-pink-700 transition"
         >
           <FaLinkedin size={28} />
         </a>
@@ -40,7 +40,7 @@ export const Contact = () => {
           href="https://dev.to/globaljoye"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-4 rounded-full bg-gradient-to-br from-[#06061a] to-[#16213e] hover:bg-purple-700 transition"
+          className="p-4 rounded-full bg-gradient-to-br from-[#06061a] to-[#16213e] hover:from-purple-700 hover:to-pink-700 transition"
         >
           <FaDev size={28} />
         </a>
@@ -48,7 +48,7 @@ export const Contact = () => {
           href="mailto:globaljoye@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-4 rounded-full bg-gradient-to-br from-[#06061a] to-[#16213e] hover:bg-purple-700 transition"
+          className="p-4 rounded-full bg-gradient-to-br from-[#06061a] to-[#16213e] hover:from-purple-700 hover:to-pink-700 transition"
         >
           <MdEmail size={28} />
         </a>

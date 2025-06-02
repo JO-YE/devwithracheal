@@ -42,7 +42,7 @@ export const Testimonials = () => {
         <_motion.div
           className="flex space-x-10 w-300"
           ref={scrollRef}
-          animate={{ x: ["100%", "-100%"] }}
+          animate={{ x: ["100%", "-200%"] }}
           transition={{
             repeat: Infinity,
             duration: 30,

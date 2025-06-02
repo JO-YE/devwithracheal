@@ -70,14 +70,23 @@ export const Landing = () => {
           </_motion.div>
         )}
 
-        {/* Intro/About Section */}
+        
         {showIntro && (
+          
           <_motion.div 
             initial={{ y: 200, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1 }}
-            className="bg-amber-50 rounded-2xl shadow-xl mt-10 p-6 max-w-md text-center space-y-4"
+            className=" flex flex-col items-center space-y-4 mt-10"
           >
+            {/* Avatar Image */}
+          <img
+            src="/pic.jpg" 
+            alt="Joye Illustration" 
+            className="w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg -mb-6 z-10"
+          />
+
+          <div className="bg-amber-50 rounded-2xl shadow-xl pt-10 pb-6 px-6 max-w-md text-center space-y-4">
             <_motion.h2 
               className="text-2xl font-bold text-gray-800"
               initial="hidden"
@@ -107,10 +116,13 @@ export const Landing = () => {
               custom={2}
               variants={introVariants}
             >
-              <button className="bg-[#06061a] text-white px-4 py-2 rounded hover:bg-gray-800 transition">
+              <button className="bg-[#06061a] text-white px-4 py-2 rounded-xl hover:bg-gray-800 transition">
                 Discover More
               </button>
             </_motion.a>
+          </div>
+
+            
           </_motion.div>
         )}
       </div>
